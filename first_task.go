@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func how_many_computers(number int) string {
+func howManyComputers(number int) string {
 	if number >= 5 && number <= 20 {
 		return fmt.Sprintf("%d компьютеров", number)
 	}
@@ -20,5 +20,5 @@ func how_many_computers(number int) string {
 func main() {
 	var n int
 	fmt.Scanln(&n)
-	fmt.Println(how_many_computers(n))
+	fmt.Println(howManyComputers(n))
 }
